@@ -253,13 +253,33 @@
             "ResetOnInit": true
         },
         {
-            "Name": "DoubleTapToWakeEnable",
-            "Path": "/sys/devices/virtual/touchscreen/primary/gesture",
+            "Name": "DoubleTapToWake",
+            "Path": "/sys/devices/virtual/touchscreen/primary/double_tap_enabled",
             "Values": [
                 "1",
                 "0"
             ],
+            "DefaultIndex": 0,
+            "ResetOnInit": true
         },
+        {
+            "Name": "PowerHALMainState",
+            "Path": "vendor.powerhal.state",
+            "Values": [
+                "SUSTAINED_PERFORMANCE",
+                ""
+        ],
+            "Type": "Property"
+        },
+        {
+            "Name": "PowerHALRenderingState",
+            "Path": "vendor.powerhal.rendering",
+            "Values": [
+                "EXPENSIVE_RENDERING",
+                ""
+        ],
+            "Type": "Property"
+        }
         {
             "Name": "devCpuDmaLatency",
             "Path": "/dev/cpu_dma_latency",
