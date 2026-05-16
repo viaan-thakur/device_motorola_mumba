@@ -1632,7 +1632,6 @@ vendor/etc/init/vendor.sensors.sscrpcd.rc
 vendor/etc/seccomp_policy/sensors-qesdk.policy
 vendor/etc/sensors/hals.conf
 vendor/etc/vintf/manifest/vendor-qti-hardware-sensorscalibrate.xml
-vendor/lib64/libdapparamstorage.so
 vendor/lib64/libsensorcal.so
 vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libsensorslog.so
@@ -1641,7 +1640,6 @@ vendor/lib64/libsns_direct_channel_stub.so
 vendor/lib64/libsns_registry_skel.so
 vendor/lib64/libsnsapi.so
 vendor/lib64/libsnsdiaglog.so
-vendor/lib64/libspatializerparamstorage.so
 vendor/lib64/libssc.so
 vendor/lib64/libssc_default_listener.so
 vendor/lib64/vendor.qti.hardware.sensorscalibrate-V1-ndk.so
