@@ -152,9 +152,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     MotoEuicc
 
-# LunarisDolby
+# MotoDolby
 PRODUCT_PACKAGES += \
-    LunarisDolby
+    MotoDolby
 
 # Fastboot
 PRODUCT_PACKAGES += \
