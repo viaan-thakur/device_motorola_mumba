@@ -13,7 +13,7 @@ $(call inherit-product, device/motorola/mumba/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_mumba
+PRODUCT_NAME := infinity_mumba
 PRODUCT_DEVICE := mumba
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := Motorola

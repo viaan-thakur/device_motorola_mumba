@@ -10,6 +10,11 @@ ro.bluetooth.library_name=libbluetooth_qti.so
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam
 vendor.camera.aux.packagelist=org.codeaurora.snapcam
 
+# InfinityX
+ro.product.marketname=Motorola G57 Power
+ro.infinity.soc=Snapdragon 6s Gen 4
+ro.infinity.camera=50MP + 8MP + 2MP
+
 # CNE
 persist.vendor.cne.feature=1
 
