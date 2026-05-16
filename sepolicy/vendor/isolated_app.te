@@ -1,0 +1,1 @@
+neverallow isolated_app hal_aidl_dms_default:binder call;

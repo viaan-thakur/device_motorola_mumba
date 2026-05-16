@@ -1,0 +1,12 @@
+userfaultfd_use(moto_dolby_app)
+bluetooth_domain(moto_dolby_app)
+net_domain(moto_dolby_app)
+
+allowxperm moto_dolby_app appdomain_tmpfs:file ioctl {
+    ASHMEM_GET_FILE_ID
+    ASHMEM_GET_NAME
+    ASHMEM_GET_PIN_STATUS
+    ASHMEM_GET_PROT_MASK
+};
+
+type_transition moto_dolby_app tmpfs:file appdomain_tmpfs;

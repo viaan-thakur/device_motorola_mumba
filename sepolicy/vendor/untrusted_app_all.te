@@ -1,0 +1,1 @@
+neverallow untrusted_app_all hal_aidl_dms_default:binder call;

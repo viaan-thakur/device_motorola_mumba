@@ -1,0 +1,2 @@
+get_prop(moto_app, vendor_mot_dolby_prop)
+get_prop(moto_app, audio_config_prop)

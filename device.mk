@@ -233,6 +233,7 @@ PRODUCT_PACKAGES += \
     DeviceAsWebcamResCommon \
     FrameworksResCommon \
     LineageSdkCommon \
+    DolbyFrameworksResCommon \
     SettingsCommon \
     SystemUIResCommon \
     TelephonyResCommon \
@@ -250,6 +251,18 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     NcmTetheringOverlay
+
+# Spatial Audio
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/spatial/android.hardware.sensor.dynamic.head_tracker.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.dynamic.head_tracker.xml
+
+# Remove Packages for Dolby Support
+PRODUCT_PACKAGES += \
+    RemovePackagesDolby
+
+# DSP Volume Synchronizer
+PRODUCT_PACKAGES += \
+    DSPVolumeSynchronizer
 
 # Keymint
 PRODUCT_PACKAGES += \
@@ -413,7 +426,6 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
 DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix_aidl.xml
 DEVICE_MANIFEST_FILE += \
     $(CONFIG_HAL_SRC_DIR)/manifest_audio_qti_services.xml \
-    $(DEVICE_PATH)/vintf/manifest_parrot.xml \
     $(DEVICE_PATH)/vintf/manifest.xml
 
 # WiFi
