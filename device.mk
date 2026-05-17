@@ -8,8 +8,6 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
 PRODUCT_CHECK_PREBUILT_MAX_PAGE_SIZE := false
 
-$(call inherit-product, hardware/dolby/dolby.mk)
-
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
 
@@ -99,10 +97,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
     frameworks/native/data/etc/android.hardware.audio.pro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.pro.xml \
     frameworks/native/data/etc/android.software.midi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.midi.xml
-
-# LunarisDolby
-PRODUCT_PACKAGES += \
-    LunarisDolby
 
 # Bluetooth
 PRODUCT_PACKAGES += \
