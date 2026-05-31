@@ -72,3 +72,10 @@ prebuilt_etc {
     sub_dir: "init/hw",
     soc_specific: true,
 }
+
+prebuilt_etc {                                                                                       
+    name: "init.mmi.chipset.rc",
+    src: "init.mmi.chipset.rc",
+    sub_dir: "init/hw",
+    soc_specific: true,
+}

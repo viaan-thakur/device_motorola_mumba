@@ -214,6 +214,7 @@ PRODUCT_PACKAGES += \
     init.mmi.rc \
     init.qcom.rc \
     init.mmi.overlay.rc \
+    init.mmi.chipset.rc \
     init.vendor.st21nfc.rc \
     ueventd.qcom.rc \
     ueventd-odm.rc
