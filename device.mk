@@ -339,7 +339,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/motorola \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/lineage/interfaces/power-libperfmgr \
+    hardware/yaap/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client
 
 # Task profile
